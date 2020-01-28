@@ -1,0 +1,53 @@
+.navigation__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.navigation__item {
+    padding: 0 0 0 35px;
+}
+
+.navigation__item a {
+    color: white;
+    padding: 15px 0;
+}
+
+.navigation__item a:hover {
+    color: #09d0cc;
+    text-decoration: none;
+}
+
+.navigation__item a:active {
+    color: #09d0cc;
+    opacity: 80%;
+}
+
+.burger {
+    color: white;
+    padding: 15px 0;
+}
+
+.burger:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.burger ~ .burger__list {
+    display: block;
+    position: absolute;
+    background-color: #0B4F6C;
+    right: 0;
+    top: 71px;
+}
+
+.burger__item {
+    padding: 0;
+    padding: 10px 15px;
+    border-bottom: 1px solid white;
+}
+
+.burger__item a {
+    padding: 0;
+}

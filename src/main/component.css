@@ -1,0 +1,27 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100% - 140px);
+    align-items: flex-start;
+}
+
+.content {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15%;
+    align-items: flex-start;
+    width: 100%;
+}
+
+
+.error {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+    .content {
+        padding: 20px 6%;
+    }
+}

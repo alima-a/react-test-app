@@ -1,0 +1,28 @@
+.page-header {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    width: 100%;
+    background-color: #0B4F6C;
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0 6%;
+    align-items: flex-start;
+    align-items: center;
+}
+
+.page-header__logo {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.page-header__logo:hover {
+    color: #09d0cc;
+    text-decoration: none;
+}
+
+
+
+@media (min-width: 960px) {
+
+}
