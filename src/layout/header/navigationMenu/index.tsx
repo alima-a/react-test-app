@@ -39,13 +39,13 @@ export default class NavigationMenu extends React.Component<Props, State> {
                 {/* && используется, так как если первый операнд false то дальше код не обрабатывается*/}
                 {this.state.isOpen && (
                     <ul className="navigation__list burger__list">
-                        <li className="navigation__item burger__item"><Link to="/">Uploader image</Link></li>
+                        <li className="navigation__item burger__item"><Link to="/">Uploader images</Link></li>
                         <li className="navigation__item burger__item"><Link to="/api">API</Link></li>
                     </ul>
                 )}
             </React.Fragment> : (
                 <ul className="navigation__list">
-                    <li className="navigation__item"><Link to="/">Uploader image</Link></li>
+                    <li className="navigation__item"><Link to="/">Uploader images</Link></li>
                     <li className="navigation__item"><Link to="/api">API</Link></li>
                 </ul>
             )}

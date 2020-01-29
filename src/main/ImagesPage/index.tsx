@@ -22,6 +22,7 @@ export default class ImagesPage extends React.Component<Props, State> {
 
     render() {
         return <React.Fragment>
+            <h2>Uploader images</h2>
             <ImgForm onSubmit={(s: string) =>  this.onSubmitHandler(s)} />
             <ImgList images={this.state.images} />
         </React.Fragment>

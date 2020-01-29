@@ -38,7 +38,7 @@ export default class FilmView extends React.Component<Props, {}> {
                 <td>{ opening_crawl }</td>
             </tr>
             <tr>
-            <td>Episode ID:</td>
+            <td>Chronological ID:</td>
             <td>{ episode_id }</td>
             </tr>
             </tbody>
