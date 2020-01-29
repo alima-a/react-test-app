@@ -11,7 +11,7 @@ export default class ApiForm extends React.Component<Props, State> {
             key: ''
         }
     }
-    //input реагирует на каждое изменение и вносит его в state
+
     keyChangeHandler(event: FormEvent<HTMLInputElement>){
         this.setState({key: event.currentTarget.value})
         console.log('change', event.currentTarget.value)

@@ -5,7 +5,6 @@ import "./component.css";
 
 export default class FilmView extends React.Component<Props, {}> {
     render() {
-        // деструктуризация объекта
         const {
             title,
             episode_id,

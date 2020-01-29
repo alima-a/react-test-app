@@ -14,7 +14,6 @@ export default class ImagesPage extends React.Component<Props, State> {
 
     onSubmitHandler(url: string) {
         this.setState({
-            // "..." - создает новыей массив с содержанием images и url в начале
             images: [ url, ...this.state.images ]
         })
     }
