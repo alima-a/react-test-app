@@ -1,3 +1,13 @@
+Данное приложение написано с использованием React и TypeScrypt. Оно содержит в себе две страницы - Images Uplouder и API, а также страницу 404.
+
+1. Images Uplouder - загрузчик изображений. Чтобы воспользоваться - необходимо вставить в ссылку на изображение в инпут и нажать "Submit";
+
+2. API - форма, которая обращается к API (https://swapi.co). Чтобы воспользоваться, нужно ввести в инпут номер интересующего вас фильма серии "Звездные войны" (от 1 до 7) и нажать "Sumit". 
+
+Чтобы запустить проект введите в консоли:
+### `npm start`
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
